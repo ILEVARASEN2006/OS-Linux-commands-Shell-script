@@ -42,24 +42,25 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![]img/img1.png
 
 
 cat < file2
 ## OUTPUT
-
+![]img/img2.png
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
-comm file1 file2
- ## OUTPUT
+![]img/img3.png
 
+comm file1 file2
+## OUTPUT
+![]img/img4.png
  
 diff file1 file2
 ## OUTPUT
-
+![]img/img5.png
 
 #Filters
 
@@ -82,13 +83,13 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![]img/img5.png
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![]img/img6.png
 
 
 cut -d "|" -f 2 file22
